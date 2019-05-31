@@ -18,8 +18,8 @@ module FormsLab
         Ship.new(details)
       end
 
-      @ship_1 = Ship.all[1]
-      @ship_2 = Ship.all[2]
+      @ship_1 = Ship.all[0]
+      @ship_2 = Ship.all[1]
       binding.pry
       erb :'pirates/show'
     end
